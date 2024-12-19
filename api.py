@@ -1,6 +1,6 @@
 from openai import OpenAI
 import re
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 
 def send_info_gpt(subject, argument, num_questions, school_level, question_type, difficulty, canvas, be_ready):
